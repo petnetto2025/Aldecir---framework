@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-    </section>SSS
+    </section>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
         <div class="container"> 

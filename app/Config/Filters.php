@@ -80,7 +80,9 @@ class Filters extends BaseFilters
                     'login',
                     'login/*',
                     'sobrenos',
-                    'veterinarios'
+                    'veterinarios',
+                    'SobreNos',
+                    'SobreNos/*'
                 ]
             ]
             // 'honeypot',

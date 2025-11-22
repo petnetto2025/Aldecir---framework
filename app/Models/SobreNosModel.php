@@ -32,6 +32,7 @@ class SobreNosModel extends BaseModel
         'title',
         'short_description',
         'long_description',
+        'valores_empresa',
         'image_slogan',
         'image_page',
         'status',

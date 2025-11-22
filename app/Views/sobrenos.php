@@ -46,4 +46,23 @@
         </div>
     </section>
 
+    <?php if (!empty($data['valores_empresa'])): ?>
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center pb-5 mb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h2>Nossos Valores</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <p style="white-space: pre-line;"><?= esc($data['valores_empresa']) ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php endif; ?>
+
 <?= $this->endSection() ?>
